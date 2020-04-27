@@ -1,0 +1,25 @@
+version: '3'
+services:
+  database:
+    image: postgres
+    ports:
+      - 5432:5432
+    environment:
+      POSTGRES_PASSWORD: userpassword
+      POSTGRES_USER: user
+      POSTGRES_DB: postgres_data
+    restart: always
+    volumes:
+      - postgres:/var/lib/postgres/data
+  drupal:
+    image: drupal:8-apache
+    ports:
+      - 8080:80
+    volumes:
+      - ./modules:/var/www/html/modules
+      - ./profiles:/var/www/html/profiles
+      - ./themes:/var/www/html/themes
+      - ./sites:/var/www/html/sites
+    restart: always
+volumes:
+  postgres:
