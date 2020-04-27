@@ -7,9 +7,9 @@ in building frameworks that can be use for
   - database management(adminer)
 ```
 ### Following are the different multicontainer docker-compose files
-*[redmine-mysql](./redmine/redmine-mysql)
-*[redmine-postgres](./redmine/redmine-postgres)
-*[drupal-mysql](./drupal/drupal-mysql)
-*[drupal-postgres](./drupal/drupal-postgres)
-*[adminer-mysql](./adminer/adminer-mysql)
-*[adminer-postgres](./adminer/adminer-postgres)
+- [redmine-mysql](./redmine/redmine-mysql)
+- [redmine-postgres](./redmine/redmine-postgres)
+- [drupal-mysql](./drupal/drupal-mysql)
+- [drupal-postgres](./drupal/drupal-postgres)
+- [adminer-mysql](./adminer/adminer-mysql)
+- [adminer-postgres](./adminer/adminer-postgres)
