@@ -8,7 +8,7 @@
 
 4. Select the profile that you want to create
 
-5. In the Verify requirements part you will get errors follow this procedure to solve them
+5. In the Verify requirements part the errors raised can be solved by
 	- Give the write permissions to all for the directories created by running `chmod a+r *`
 	- Then refresh the page
 	- Then you will find that one of the error is solved
@@ -17,7 +17,8 @@
 		2. settings.php
 	- Also give the write permissions to all for the settings.php
 	- You will find that all the errors are solved
-	- After the complerion of the setup remove the write permissions for settings.php
+	- If your error is not solved check if you can get any solutions in INSTALL.txt
+	- After the completion of the setup remove the write permissions for settings.php
 	
 6. In the set up database section give thfolloning details
 	- select `MySQL`
