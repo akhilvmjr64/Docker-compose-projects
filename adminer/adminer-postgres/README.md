@@ -10,5 +10,5 @@
 
 	- server : `db` (host name in docker-compose.yml)
 	- username : `user` (user created in docker-compose.yml)
-	- password : `userpass`
+	- password : `userpassword`
 	- you can leave the database field empty
