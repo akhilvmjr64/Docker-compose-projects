@@ -6,7 +6,7 @@ in building frameworks that can be use for
   - web content management(drupal), and
   - database management(adminer)
 ```
-### Following are the directories consiring of different multicontainer docker-compose files
+### Following are the directories consising of different multicontainer docker-compose files
 - [redmine-mysql](./redmine/redmine-mysql)
 - [redmine-postgres](./redmine/redmine-postgres)
 - [drupal-mysql](./drupal/drupal-mysql)
