@@ -1,12 +1,12 @@
-Drupal is a content-management framework written in php
+## Drupal is a content-management framework written in php
 
 1. Start the installation using `docker-compose -d up` command after placing the docker-compose.yml in the directory you want
 
-2. You will be able to use the drupal at 0.0.0.0:8080
+2. You will be able to use the `drupal` at http://0.0.0.0:8080
 
-3. Select the language
+3. Select the language you are comfortable with
 
-4. Select profile you want to create
+4. Select the profile that you want to create
 
 5. In the Verify requirements part you will get errors follow this procedure to solve them
 	- Give the write permissions to all for the directories created after running the first step
