@@ -13,11 +13,11 @@
 	- Then refresh the page
 	- Then you will find that one of the error is solved
 	- Further you need to create the following two files in the sites/default directory
-		1. default.settings.php
-		2. settings.php
-	- Also give the write permissions to all for the settings.php
+		1. `default.settings.php`
+		2. `settings.php`
+	- Also give the write permissions to all for the `settings.php`
 	- You will find that all the errors are solved
-	- If your error is not solved check if you can get any solutions in INSTALL.txt
+	- If your error is not solved check if you can get any solutions in [INSTALL.txt](./INSTALL.txt)
 	- After the completion of the setup remove the write permissions for settings.php
 	
 6. In the set up database section give thfolloning details
