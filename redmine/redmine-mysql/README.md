@@ -1,6 +1,6 @@
 ## Redmine is a web-based project management and issue tracking tool
 
-1. Start the installation using `docker-compose -d up` command after placing the docker-compose.yml in the directory you want
+1. Start the installation using `docker-compose -d up` command after placing the `docker-compose.yml` in the directory you want
 
 2. You will be able to use the redmine at http://0.0.0.0:8080
 
